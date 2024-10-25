@@ -265,7 +265,7 @@ end)
 
 
 
---Notify the server if the client is in VR.
+--Notify the server if the client has VR enabled.
 if VRService.VREnabled then
     VRPlayerJoinedEvent:FireServer()
 else
